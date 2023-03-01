@@ -10,7 +10,32 @@ export default function Carousel() {
     200: {items: 3},
   };
 
+  //   this.state = {
+  //     bgColor: "",
+  //   };
+
+  //   boxClick = (e) => {
+  //     this.setState({
+  //       bgColor: "red",
+  //     });
+  //   };
+
   const items = [
+    <div
+      className="cardItem shadow-sm rounded-md"
+      data-value="1"
+      //   style={{backgroundColor: this.state.bgColor}}
+      //   onClick={this.boxClick}
+    >
+      <p className="">00:00</p>
+      <img src={vite} alt="vite" className="" />
+      <div className="font-bold">25°</div>
+    </div>,
+    <div className="cardItem shadow-sm rounded-md" data-value="1">
+      <p className="">00:00</p>
+      <img src={vite} alt="vite" className="" />
+      <div className="font-bold">25°</div>
+    </div>,
     <div className="cardItem shadow-sm rounded-md" data-value="1">
       <p className="">00:00</p>
       <img src={vite} alt="vite" className="" />
@@ -35,7 +60,6 @@ export default function Carousel() {
         responsive={responsive}
         items={items}
         autoPlayInterval={3000}
-        infinite
         disableButtonsControls
         disableDotsControls
         mouseDragEnabled
@@ -45,6 +69,7 @@ export default function Carousel() {
         paddingRight={140}
         itemPosition="center"
         disableSlideInfo
+        sho
       />
     </div>
   );
