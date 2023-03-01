@@ -8,9 +8,8 @@ ion-icon {
 }
 
 .cardItem {
-	background-color: aqua;
 	width: 60px;
-	height: 90px;
+	height: 80px;
 	display: grid;
 	text-align: center;
 	justify-items: center;

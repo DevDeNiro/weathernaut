@@ -1,5 +1,5 @@
 import Header from "./components/Header.jsx";
-import CarouselHeader from "./components/CarouselHeader.jsx";
+import Carousel from "./components/Carousel.jsx";
 import MainView from "./components/MainView.jsx";
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <>
       <Header />
       <MainView />
-      <CarouselHeader></CarouselHeader>
+      <Carousel></Carousel>
     </>
   );
 }
