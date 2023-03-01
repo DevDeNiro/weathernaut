@@ -9,7 +9,7 @@ import Loader from "./Loader.jsx";
 import {getCurrentWeather} from "../api.js";
 
 export default function MainView() {
-	const {data, isLoading, error} = useQuery(["weather", "now"], getCurrentWeather);
+	const {data, isLoading, error, isError} = useQuery(["weather", "now"], getCurrentWeather);
 
 	if (error) {
 		console.log(error)
