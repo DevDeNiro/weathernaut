@@ -1,15 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-  </head>
-  <body>
-    <div id="root" class="w-screen h-screen"></div>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+	<meta charset="UTF-8" />
+	<link rel="icon" type="image/svg+xml" href="/vite.svg" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="manifest" href="./app.webmanifest">
+	<link rel="apple-touch-icon" href="./icon.png">
+	<title>Weathernaut</title>
+</head>
+<body>
+<div id="root" class="w-screen h-screen"></div>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script>
+	if ('serviceWorker' in navigator) {
+		// Change the service worker URL to see what happens when the SW doesn't exist
+		navigator.serviceWorker
+			.register('./sw.js')
+			.then(() => {
+				console.log('Service worker registered')
+			})
+			.catch((err) => console.log('Error while registering: ' + err.message))
+	} else {
+		console.log('Service workers API not available')
+	}
+
+	let deferredPrompt
+	window.addEventListener('beforeinstallprompt', (e) => {
+		console.log('test')
+		e.preventDefault()
+		deferredPrompt = e
+		// showInAppInstallPromotion()
+	})
+</script>
+<script type="module" src="/src/main.jsx"></script>
+</body>
 </html>

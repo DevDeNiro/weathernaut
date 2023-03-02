@@ -1,7 +1,7 @@
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import CarouselHeader from "./CarouselHeader";
-import vite from "/public/vite.svg";
+import vite from "../img/vite.svg";
 
 export default function Carousel() {
   const responsive = {
