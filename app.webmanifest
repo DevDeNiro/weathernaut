@@ -1,13 +1,14 @@
 {
     "name": "Weathernaut",
+    "description": "A readable weather app for argonautes.",
     "short_name": "Weath",
     "start_url": ".",
+    "display": "standalone",
     "icons": [
         {
             "src": "./public/icon.png",
             "sizes": "192x192",
             "type": "image/png"
         }
-    ],
-    "display": "standalone"
+    ]
 }
