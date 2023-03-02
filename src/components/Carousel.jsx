@@ -22,34 +22,34 @@ export default function Carousel() {
 
   const items = [
     <div
-      className="cardItem shadow-sm rounded-md"
+      className="cardItem bg-blue-500 shadow-sm rounded-md"
       data-value="1"
       //   style={{backgroundColor: this.state.bgColor}}
       //   onClick={this.boxClick}
     >
       <p className="">00:00</p>
       <img src={vite} alt="vite" className="" />
-      <div className="font-bold">25°</div>
+      <div className="font-bold">4°</div>
     </div>,
     <div className="cardItem shadow-sm rounded-md" data-value="1">
-      <p className="">00:00</p>
+      <p className="">07:00</p>
       <img src={vite} alt="vite" className="" />
-      <div className="font-bold">25°</div>
+      <div className="font-bold">7°</div>
     </div>,
     <div className="cardItem shadow-sm rounded-md" data-value="1">
-      <p className="">00:00</p>
+      <p className="">10:00</p>
       <img src={vite} alt="vite" className="" />
-      <div className="font-bold">25°</div>
+      <div className="font-bold">10°</div>
     </div>,
     <div className="cardItem shadow-sm rounded-md" data-value="1">
-      <p className="">00:00</p>
+      <p className="">12:00</p>
       <img src={vite} alt="vite" className="" />
-      <div className="font-bold">25°</div>
+      <div className="font-bold">11°</div>
     </div>,
     <div className="cardItem shadow-sm rounded-md" data-value="1">
-      <p className="">00:00</p>
+      <p className="">15:00</p>
       <img src={vite} alt="vite" className="" />
-      <div className="font-bold">25°</div>
+      <div className="font-bold">13°</div>
     </div>,
   ];
 

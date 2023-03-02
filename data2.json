@@ -66,7 +66,7 @@
 		},
 		"visibility": 10000,
 		"wind": {
-			"speed": 13.8,
+			"speed": 15.8,
 			"deg": 30
 		},
 		"clouds": {
@@ -109,7 +109,7 @@
 		},
 		"visibility": 10000,
 		"wind": {
-			"speed": 13.8,
+			"speed": 73.8,
 			"deg": 30
 		},
 		"clouds": {
@@ -152,7 +152,7 @@
 		},
 		"visibility": 10000,
 		"wind": {
-			"speed": 13.8,
+			"speed": 3	,
 			"deg": 30
 		},
 		"clouds": {
