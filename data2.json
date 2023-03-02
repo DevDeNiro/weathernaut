@@ -1,43 +1,217 @@
-{
-	"coord": {
-		"lon": 2.3488,
-		"lat": 48.8534
+[
+	{
+		"coord": {
+			"lon": 2.3488,
+			"lat": 48.8534
+		},
+		"weather": [
+			{
+				"id": 800,
+				"main": "Clear",
+				"description": "clear sky",
+				"icon": "01d"
+			}
+		],
+		"base": "stations",
+		"main": {
+			"temp": 45.68,
+			"feels_like": 39.43,
+			"temp_min": 44.01,
+			"temp_max": 47.37,
+			"pressure": 1021,
+			"humidity": 50
+		},
+		"visibility": 10000,
+		"wind": {
+			"speed": 13.8,
+			"deg": 30
+		},
+		"clouds": {
+			"all": 0
+		},
+		"dt": 1677683199,
+		"sys": {
+			"type": 2,
+			"id": 2041230,
+			"country": "FR",
+			"sunrise": 1677652421,
+			"sunset": 1677691964
+		},
+		"timezone": 3600,
+		"id": 2988507,
+		"name": "Paris",
+		"cod": 200
 	},
-	"weather": [
-		{
-			"id": 800,
-			"main": "Clear",
-			"description": "clear sky",
-			"icon": "01d"
-		}
-	],
-	"base": "stations",
-	"main": {
-		"temp": 45.68,
-		"feels_like": 39.43,
-		"temp_min": 44.01,
-		"temp_max": 47.37,
-		"pressure": 1021,
-		"humidity": 50
+	{
+		"coord": {
+			"lon": 2.3488,
+			"lat": 48.8534
+		},
+		"weather": [
+			{
+				"id": 800,
+				"main": "Clear",
+				"description": "clear sky",
+				"icon": "01d"
+			}
+		],
+		"base": "stations",
+		"main": {
+			"temp": 45.68,
+			"feels_like": 39.43,
+			"temp_min": 44.01,
+			"temp_max": 47.37,
+			"pressure": 1021,
+			"humidity": 50
+		},
+		"visibility": 10000,
+		"wind": {
+			"speed": 13.8,
+			"deg": 30
+		},
+		"clouds": {
+			"all": 0
+		},
+		"dt": 1677683199,
+		"sys": {
+			"type": 2,
+			"id": 2041230,
+			"country": "CH",
+			"sunrise": 1677652421,
+			"sunset": 1677691964
+		},
+		"timezone": 3600,
+		"id": 2988507,
+		"name": "Genève",
+		"cod": 200
 	},
-	"visibility": 10000,
-	"wind": {
-		"speed": 13.8,
-		"deg": 30
+	{
+		"coord": {
+			"lon": 2.3488,
+			"lat": 48.8534
+		},
+		"weather": [
+			{
+				"id": 800,
+				"main": "Clear",
+				"description": "clear sky",
+				"icon": "01d"
+			}
+		],
+		"base": "stations",
+		"main": {
+			"temp": 45.68,
+			"feels_like": 39.43,
+			"temp_min": 44.01,
+			"temp_max": 47.37,
+			"pressure": 1021,
+			"humidity": 50
+		},
+		"visibility": 10000,
+		"wind": {
+			"speed": 13.8,
+			"deg": 30
+		},
+		"clouds": {
+			"all": 0
+		},
+		"dt": 1677683199,
+		"sys": {
+			"type": 2,
+			"id": 2041230,
+			"country": "BE",
+			"sunrise": 1677652421,
+			"sunset": 1677691964
+		},
+		"timezone": 3600,
+		"id": 2988507,
+		"name": "Bruxelles",
+		"cod": 200
 	},
-	"clouds": {
-		"all": 0
+	{
+		"coord": {
+			"lon": 2.3488,
+			"lat": 48.8534
+		},
+		"weather": [
+			{
+				"id": 800,
+				"main": "Clear",
+				"description": "clear sky",
+				"icon": "01d"
+			}
+		],
+		"base": "stations",
+		"main": {
+			"temp": 45.68,
+			"feels_like": 39.43,
+			"temp_min": 44.01,
+			"temp_max": 47.37,
+			"pressure": 1021,
+			"humidity": 50
+		},
+		"visibility": 10000,
+		"wind": {
+			"speed": 13.8,
+			"deg": 30
+		},
+		"clouds": {
+			"all": 0
+		},
+		"dt": 1677683199,
+		"sys": {
+			"type": 2,
+			"id": 2041230,
+			"country": "UK",
+			"sunrise": 1677652421,
+			"sunset": 1677691964
+		},
+		"timezone": 3600,
+		"id": 2988507,
+		"name": "Londres",
+		"cod": 200
 	},
-	"dt": 1677683199,
-	"sys": {
-		"type": 2,
-		"id": 2041230,
-		"country": "FR",
-		"sunrise": 1677652421,
-		"sunset": 1677691964
-	},
-	"timezone": 3600,
-	"id": 2988507,
-	"name": "Paris",
-	"cod": 200
-}
+	{
+		"coord": {
+			"lon": 2.3488,
+			"lat": 48.8534
+		},
+		"weather": [
+			{
+				"id": 800,
+				"main": "Clear",
+				"description": "clear sky",
+				"icon": "01d"
+			}
+		],
+		"base": "stations",
+		"main": {
+			"temp": 45.68,
+			"feels_like": 39.43,
+			"temp_min": 44.01,
+			"temp_max": 47.37,
+			"pressure": 1021,
+			"humidity": 50
+		},
+		"visibility": 10000,
+		"wind": {
+			"speed": 13.8,
+			"deg": 30
+		},
+		"clouds": {
+			"all": 0
+		},
+		"dt": 1677683199,
+		"sys": {
+			"type": 2,
+			"id": 2041230,
+			"country": "DE",
+			"sunrise": 1677652421,
+			"sunset": 1677691964
+		},
+		"timezone": 3600,
+		"id": 2988507,
+		"name": "Berlin",
+		"cod": 200
+	}
+]
