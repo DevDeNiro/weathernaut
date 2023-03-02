@@ -13,6 +13,12 @@
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 <script>
+	window.addEventListener('DOMContentLoaded', () => {
+		const audio = new Audio('./goat.mp3')
+		audio.play().then((r) => console.log(r))
+	})
+</script>
+<script>
 	if ('serviceWorker' in navigator) {
 		// Change the service worker URL to see what happens when the SW doesn't exist
 		navigator.serviceWorker

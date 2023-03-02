@@ -1,860 +1,1475 @@
 {
-  "location": {
-    "code": "FR0IF0356",
-    "name": "Paris",
-    "timezone": "Europe/Paris",
-    "coordinates": {
-      "latitude": 48.8534,
-      "longitude": 2.3488
+  "cod": "200",
+  "message": 0,
+  "cnt": 40,
+  "list": [
+    {
+      "dt": 1677758400,
+      "main": {
+        "temp": 277.84,
+        "feels_like": 275.43,
+        "temp_min": 277.84,
+        "temp_max": 281.04,
+        "pressure": 1020,
+        "sea_level": 1020,
+        "grnd_level": 1016,
+        "humidity": 60,
+        "temp_kf": -3.2
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "01d"
+        }
+      ],
+      "clouds": {
+        "all": 6
+      },
+      "wind": {
+        "speed": 2.81,
+        "deg": 25,
+        "gust": 4.34
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2023-03-02 12:00:00"
+    },
+    {
+      "dt": 1677769200,
+      "main": {
+        "temp": 281.05,
+        "feels_like": 278.98,
+        "temp_min": 281.05,
+        "temp_max": 283.45,
+        "pressure": 1020,
+        "sea_level": 1020,
+        "grnd_level": 1015,
+        "humidity": 52,
+        "temp_kf": -2.4
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "01d"
+        }
+      ],
+      "clouds": {
+        "all": 6
+      },
+      "wind": {
+        "speed": 3.25,
+        "deg": 31,
+        "gust": 4.83
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2023-03-02 15:00:00"
+    },
+    {
+      "dt": 1677780000,
+      "main": {
+        "temp": 280.87,
+        "feels_like": 279.03,
+        "temp_min": 280.87,
+        "temp_max": 280.87,
+        "pressure": 1021,
+        "sea_level": 1021,
+        "grnd_level": 1016,
+        "humidity": 56,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "01n"
+        }
+      ],
+      "clouds": {
+        "all": 9
+      },
+      "wind": {
+        "speed": 2.84,
+        "deg": 8,
+        "gust": 6.76
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2023-03-02 18:00:00"
+    },
+    {
+      "dt": 1677790800,
+      "main": {
+        "temp": 278.64,
+        "feels_like": 276.02,
+        "temp_min": 278.64,
+        "temp_max": 278.64,
+        "pressure": 1022,
+        "sea_level": 1022,
+        "grnd_level": 1017,
+        "humidity": 61,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "01n"
+        }
+      ],
+      "clouds": {
+        "all": 9
+      },
+      "wind": {
+        "speed": 3.33,
+        "deg": 20,
+        "gust": 9.1
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2023-03-02 21:00:00"
+    },
+    {
+      "dt": 1677801600,
+      "main": {
+        "temp": 276.8,
+        "feels_like": 274.35,
+        "temp_min": 276.8,
+        "temp_max": 276.8,
+        "pressure": 1023,
+        "sea_level": 1023,
+        "grnd_level": 1018,
+        "humidity": 65,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 801,
+          "main": "Clouds",
+          "description": "few clouds",
+          "icon": "02n"
+        }
+      ],
+      "clouds": {
+        "all": 12
+      },
+      "wind": {
+        "speed": 2.61,
+        "deg": 12,
+        "gust": 6.19
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2023-03-03 00:00:00"
+    },
+    {
+      "dt": 1677812400,
+      "main": {
+        "temp": 275.67,
+        "feels_like": 272.94,
+        "temp_min": 275.67,
+        "temp_max": 275.67,
+        "pressure": 1023,
+        "sea_level": 1023,
+        "grnd_level": 1018,
+        "humidity": 71,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 801,
+          "main": "Clouds",
+          "description": "few clouds",
+          "icon": "02n"
+        }
+      ],
+      "clouds": {
+        "all": 21
+      },
+      "wind": {
+        "speed": 2.69,
+        "deg": 11,
+        "gust": 7.21
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2023-03-03 03:00:00"
+    },
+    {
+      "dt": 1677823200,
+      "main": {
+        "temp": 274.78,
+        "feels_like": 271.65,
+        "temp_min": 274.78,
+        "temp_max": 274.78,
+        "pressure": 1023,
+        "sea_level": 1023,
+        "grnd_level": 1018,
+        "humidity": 81,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 801,
+          "main": "Clouds",
+          "description": "few clouds",
+          "icon": "02n"
+        }
+      ],
+      "clouds": {
+        "all": 12
+      },
+      "wind": {
+        "speed": 2.95,
+        "deg": 15,
+        "gust": 8.69
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2023-03-03 06:00:00"
+    },
+    {
+      "dt": 1677834000,
+      "main": {
+        "temp": 277.29,
+        "feels_like": 273.93,
+        "temp_min": 277.29,
+        "temp_max": 277.29,
+        "pressure": 1025,
+        "sea_level": 1025,
+        "grnd_level": 1020,
+        "humidity": 68,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "01d"
+        }
+      ],
+      "clouds": {
+        "all": 0
+      },
+      "wind": {
+        "speed": 4.04,
+        "deg": 29,
+        "gust": 7.85
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2023-03-03 09:00:00"
+    },
+    {
+      "dt": 1677844800,
+      "main": {
+        "temp": 281.93,
+        "feels_like": 279.54,
+        "temp_min": 281.93,
+        "temp_max": 281.93,
+        "pressure": 1024,
+        "sea_level": 1024,
+        "grnd_level": 1019,
+        "humidity": 48,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "01d"
+        }
+      ],
+      "clouds": {
+        "all": 1
+      },
+      "wind": {
+        "speed": 4.25,
+        "deg": 31,
+        "gust": 6.06
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2023-03-03 12:00:00"
+    },
+    {
+      "dt": 1677855600,
+      "main": {
+        "temp": 283.32,
+        "feels_like": 281.44,
+        "temp_min": 283.32,
+        "temp_max": 283.32,
+        "pressure": 1023,
+        "sea_level": 1023,
+        "grnd_level": 1019,
+        "humidity": 40,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "01d"
+        }
+      ],
+      "clouds": {
+        "all": 2
+      },
+      "wind": {
+        "speed": 4.52,
+        "deg": 22,
+        "gust": 5.7
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2023-03-03 15:00:00"
+    },
+    {
+      "dt": 1677866400,
+      "main": {
+        "temp": 280.66,
+        "feels_like": 278.26,
+        "temp_min": 280.66,
+        "temp_max": 280.66,
+        "pressure": 1025,
+        "sea_level": 1025,
+        "grnd_level": 1020,
+        "humidity": 53,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "01n"
+        }
+      ],
+      "clouds": {
+        "all": 2
+      },
+      "wind": {
+        "speed": 3.68,
+        "deg": 19,
+        "gust": 7.63
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2023-03-03 18:00:00"
+    },
+    {
+      "dt": 1677877200,
+      "main": {
+        "temp": 278.69,
+        "feels_like": 276.4,
+        "temp_min": 278.69,
+        "temp_max": 278.69,
+        "pressure": 1026,
+        "sea_level": 1026,
+        "grnd_level": 1021,
+        "humidity": 65,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "01n"
+        }
+      ],
+      "clouds": {
+        "all": 0
+      },
+      "wind": {
+        "speed": 2.87,
+        "deg": 16,
+        "gust": 8.4
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2023-03-03 21:00:00"
+    },
+    {
+      "dt": 1677888000,
+      "main": {
+        "temp": 276.94,
+        "feels_like": 274.39,
+        "temp_min": 276.94,
+        "temp_max": 276.94,
+        "pressure": 1026,
+        "sea_level": 1026,
+        "grnd_level": 1022,
+        "humidity": 79,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "01n"
+        }
+      ],
+      "clouds": {
+        "all": 0
+      },
+      "wind": {
+        "speed": 2.77,
+        "deg": 12,
+        "gust": 7.76
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2023-03-04 00:00:00"
+    },
+    {
+      "dt": 1677898800,
+      "main": {
+        "temp": 275.74,
+        "feels_like": 273.2,
+        "temp_min": 275.74,
+        "temp_max": 275.74,
+        "pressure": 1026,
+        "sea_level": 1026,
+        "grnd_level": 1021,
+        "humidity": 87,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "01n"
+        }
+      ],
+      "clouds": {
+        "all": 0
+      },
+      "wind": {
+        "speed": 2.5,
+        "deg": 7,
+        "gust": 7.3
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2023-03-04 03:00:00"
+    },
+    {
+      "dt": 1677909600,
+      "main": {
+        "temp": 275.04,
+        "feels_like": 272.62,
+        "temp_min": 275.04,
+        "temp_max": 275.04,
+        "pressure": 1026,
+        "sea_level": 1026,
+        "grnd_level": 1021,
+        "humidity": 93,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "01n"
+        }
+      ],
+      "clouds": {
+        "all": 4
+      },
+      "wind": {
+        "speed": 2.25,
+        "deg": 0,
+        "gust": 6.61
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2023-03-04 06:00:00"
+    },
+    {
+      "dt": 1677920400,
+      "main": {
+        "temp": 276.9,
+        "feels_like": 273.77,
+        "temp_min": 276.9,
+        "temp_max": 276.9,
+        "pressure": 1027,
+        "sea_level": 1027,
+        "grnd_level": 1023,
+        "humidity": 85,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 802,
+          "main": "Clouds",
+          "description": "scattered clouds",
+          "icon": "03d"
+        }
+      ],
+      "clouds": {
+        "all": 44
+      },
+      "wind": {
+        "speed": 3.53,
+        "deg": 14,
+        "gust": 6.26
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2023-03-04 09:00:00"
+    },
+    {
+      "dt": 1677931200,
+      "main": {
+        "temp": 279.41,
+        "feels_like": 276.61,
+        "temp_min": 279.41,
+        "temp_max": 279.41,
+        "pressure": 1027,
+        "sea_level": 1027,
+        "grnd_level": 1022,
+        "humidity": 72,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 803,
+          "main": "Clouds",
+          "description": "broken clouds",
+          "icon": "04d"
+        }
+      ],
+      "clouds": {
+        "all": 54
+      },
+      "wind": {
+        "speed": 3.91,
+        "deg": 18,
+        "gust": 6.01
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2023-03-04 12:00:00"
+    },
+    {
+      "dt": 1677942000,
+      "main": {
+        "temp": 279.72,
+        "feels_like": 276.75,
+        "temp_min": 279.72,
+        "temp_max": 279.72,
+        "pressure": 1026,
+        "sea_level": 1026,
+        "grnd_level": 1021,
+        "humidity": 69,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 803,
+          "main": "Clouds",
+          "description": "broken clouds",
+          "icon": "04d"
+        }
+      ],
+      "clouds": {
+        "all": 61
+      },
+      "wind": {
+        "speed": 4.36,
+        "deg": 23,
+        "gust": 6.09
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2023-03-04 15:00:00"
+    },
+    {
+      "dt": 1677952800,
+      "main": {
+        "temp": 278.88,
+        "feels_like": 275.93,
+        "temp_min": 278.88,
+        "temp_max": 278.88,
+        "pressure": 1025,
+        "sea_level": 1025,
+        "grnd_level": 1020,
+        "humidity": 67,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 803,
+          "main": "Clouds",
+          "description": "broken clouds",
+          "icon": "04n"
+        }
+      ],
+      "clouds": {
+        "all": 77
+      },
+      "wind": {
+        "speed": 3.96,
+        "deg": 26,
+        "gust": 6.23
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2023-03-04 18:00:00"
+    },
+    {
+      "dt": 1677963600,
+      "main": {
+        "temp": 278.66,
+        "feels_like": 275.83,
+        "temp_min": 278.66,
+        "temp_max": 278.66,
+        "pressure": 1025,
+        "sea_level": 1025,
+        "grnd_level": 1020,
+        "humidity": 64,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04n"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 3.67,
+        "deg": 31,
+        "gust": 5.55
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2023-03-04 21:00:00"
+    },
+    {
+      "dt": 1677974400,
+      "main": {
+        "temp": 278.36,
+        "feels_like": 275.87,
+        "temp_min": 278.36,
+        "temp_max": 278.36,
+        "pressure": 1024,
+        "sea_level": 1024,
+        "grnd_level": 1019,
+        "humidity": 61,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04n"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 3.05,
+        "deg": 34,
+        "gust": 4.63
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2023-03-05 00:00:00"
+    },
+    {
+      "dt": 1677985200,
+      "main": {
+        "temp": 278.43,
+        "feels_like": 276.65,
+        "temp_min": 278.43,
+        "temp_max": 278.43,
+        "pressure": 1022,
+        "sea_level": 1022,
+        "grnd_level": 1018,
+        "humidity": 59,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04n"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 2.2,
+        "deg": 29,
+        "gust": 3.6
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2023-03-05 03:00:00"
+    },
+    {
+      "dt": 1677996000,
+      "main": {
+        "temp": 278.44,
+        "feels_like": 278.44,
+        "temp_min": 278.44,
+        "temp_max": 278.44,
+        "pressure": 1021,
+        "sea_level": 1021,
+        "grnd_level": 1016,
+        "humidity": 56,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04n"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 1.18,
+        "deg": 12,
+        "gust": 1.83
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2023-03-05 06:00:00"
+    },
+    {
+      "dt": 1678006800,
+      "main": {
+        "temp": 279.04,
+        "feels_like": 277.88,
+        "temp_min": 279.04,
+        "temp_max": 279.04,
+        "pressure": 1020,
+        "sea_level": 1020,
+        "grnd_level": 1015,
+        "humidity": 52,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04d"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 1.69,
+        "deg": 16,
+        "gust": 2.61
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2023-03-05 09:00:00"
+    },
+    {
+      "dt": 1678017600,
+      "main": {
+        "temp": 279.97,
+        "feels_like": 279.34,
+        "temp_min": 279.97,
+        "temp_max": 279.97,
+        "pressure": 1019,
+        "sea_level": 1019,
+        "grnd_level": 1014,
+        "humidity": 49,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04d"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 1.37,
+        "deg": 353,
+        "gust": 1.87
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2023-03-05 12:00:00"
+    },
+    {
+      "dt": 1678028400,
+      "main": {
+        "temp": 280.39,
+        "feels_like": 279.31,
+        "temp_min": 280.39,
+        "temp_max": 280.39,
+        "pressure": 1016,
+        "sea_level": 1016,
+        "grnd_level": 1011,
+        "humidity": 47,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04d"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 1.81,
+        "deg": 336,
+        "gust": 2.31
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2023-03-05 15:00:00"
+    },
+    {
+      "dt": 1678039200,
+      "main": {
+        "temp": 279.58,
+        "feels_like": 278.92,
+        "temp_min": 279.58,
+        "temp_max": 279.58,
+        "pressure": 1015,
+        "sea_level": 1015,
+        "grnd_level": 1010,
+        "humidity": 51,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04n"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 1.35,
+        "deg": 343,
+        "gust": 1.84
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2023-03-05 18:00:00"
+    },
+    {
+      "dt": 1678050000,
+      "main": {
+        "temp": 279.09,
+        "feels_like": 279.09,
+        "temp_min": 279.09,
+        "temp_max": 279.09,
+        "pressure": 1014,
+        "sea_level": 1014,
+        "grnd_level": 1009,
+        "humidity": 54,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04n"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 0.36,
+        "deg": 325,
+        "gust": 0.85
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2023-03-05 21:00:00"
+    },
+    {
+      "dt": 1678060800,
+      "main": {
+        "temp": 278.66,
+        "feels_like": 278.66,
+        "temp_min": 278.66,
+        "temp_max": 278.66,
+        "pressure": 1012,
+        "sea_level": 1012,
+        "grnd_level": 1007,
+        "humidity": 56,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04n"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 0.65,
+        "deg": 253,
+        "gust": 1.18
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2023-03-06 00:00:00"
+    },
+    {
+      "dt": 1678071600,
+      "main": {
+        "temp": 278.11,
+        "feels_like": 278.11,
+        "temp_min": 278.11,
+        "temp_max": 278.11,
+        "pressure": 1010,
+        "sea_level": 1010,
+        "grnd_level": 1005,
+        "humidity": 56,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04n"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 0.96,
+        "deg": 241,
+        "gust": 1.73
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2023-03-06 03:00:00"
+    },
+    {
+      "dt": 1678082400,
+      "main": {
+        "temp": 277.77,
+        "feels_like": 277.77,
+        "temp_min": 277.77,
+        "temp_max": 277.77,
+        "pressure": 1009,
+        "sea_level": 1009,
+        "grnd_level": 1004,
+        "humidity": 55,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04n"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 1.16,
+        "deg": 220,
+        "gust": 2.19
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2023-03-06 06:00:00"
+    },
+    {
+      "dt": 1678093200,
+      "main": {
+        "temp": 278.73,
+        "feels_like": 276.87,
+        "temp_min": 278.73,
+        "temp_max": 278.73,
+        "pressure": 1008,
+        "sea_level": 1008,
+        "grnd_level": 1003,
+        "humidity": 52,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04d"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 2.35,
+        "deg": 232,
+        "gust": 2.77
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2023-03-06 09:00:00"
+    },
+    {
+      "dt": 1678104000,
+      "main": {
+        "temp": 279.86,
+        "feels_like": 277.92,
+        "temp_min": 279.86,
+        "temp_max": 279.86,
+        "pressure": 1007,
+        "sea_level": 1007,
+        "grnd_level": 1002,
+        "humidity": 51,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 500,
+          "main": "Rain",
+          "description": "light rain",
+          "icon": "10d"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 2.7,
+        "deg": 227,
+        "gust": 3.53
+      },
+      "visibility": 10000,
+      "pop": 0.2,
+      "rain": {
+        "3h": 0.11
+      },
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2023-03-06 12:00:00"
+    },
+    {
+      "dt": 1678114800,
+      "main": {
+        "temp": 280.39,
+        "feels_like": 278.24,
+        "temp_min": 280.39,
+        "temp_max": 280.39,
+        "pressure": 1004,
+        "sea_level": 1004,
+        "grnd_level": 1000,
+        "humidity": 50,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 500,
+          "main": "Rain",
+          "description": "light rain",
+          "icon": "10d"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 3.17,
+        "deg": 235,
+        "gust": 3.93
+      },
+      "visibility": 10000,
+      "pop": 0.21,
+      "rain": {
+        "3h": 0.13
+      },
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2023-03-06 15:00:00"
+    },
+    {
+      "dt": 1678125600,
+      "main": {
+        "temp": 279.52,
+        "feels_like": 277.53,
+        "temp_min": 279.52,
+        "temp_max": 279.52,
+        "pressure": 1003,
+        "sea_level": 1003,
+        "grnd_level": 998,
+        "humidity": 56,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04n"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 2.68,
+        "deg": 208,
+        "gust": 4.55
+      },
+      "visibility": 10000,
+      "pop": 0.01,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2023-03-06 18:00:00"
+    },
+    {
+      "dt": 1678136400,
+      "main": {
+        "temp": 278.39,
+        "feels_like": 275.68,
+        "temp_min": 278.39,
+        "temp_max": 278.39,
+        "pressure": 1001,
+        "sea_level": 1001,
+        "grnd_level": 996,
+        "humidity": 63,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04n"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 3.38,
+        "deg": 193,
+        "gust": 7.28
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2023-03-06 21:00:00"
+    },
+    {
+      "dt": 1678147200,
+      "main": {
+        "temp": 277.8,
+        "feels_like": 274.61,
+        "temp_min": 277.8,
+        "temp_max": 277.8,
+        "pressure": 999,
+        "sea_level": 999,
+        "grnd_level": 994,
+        "humidity": 74,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04n"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 3.95,
+        "deg": 206,
+        "gust": 9.86
+      },
+      "visibility": 10000,
+      "pop": 0.15,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2023-03-07 00:00:00"
+    },
+    {
+      "dt": 1678158000,
+      "main": {
+        "temp": 277.07,
+        "feels_like": 273.58,
+        "temp_min": 277.07,
+        "temp_max": 277.07,
+        "pressure": 997,
+        "sea_level": 997,
+        "grnd_level": 992,
+        "humidity": 84,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 500,
+          "main": "Rain",
+          "description": "light rain",
+          "icon": "10n"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 4.18,
+        "deg": 210,
+        "gust": 10.69
+      },
+      "visibility": 10000,
+      "pop": 0.51,
+      "rain": {
+        "3h": 0.45
+      },
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2023-03-07 03:00:00"
+    },
+    {
+      "dt": 1678168800,
+      "main": {
+        "temp": 275.86,
+        "feels_like": 272.27,
+        "temp_min": 275.86,
+        "temp_max": 275.86,
+        "pressure": 996,
+        "sea_level": 996,
+        "grnd_level": 991,
+        "humidity": 94,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 600,
+          "main": "Snow",
+          "description": "light snow",
+          "icon": "13n"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 3.88,
+        "deg": 216,
+        "gust": 10.34
+      },
+      "visibility": 889,
+      "pop": 0.69,
+      "snow": {
+        "3h": 1.3
+      },
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2023-03-07 06:00:00"
+    },
+    {
+      "dt": 1678179600,
+      "main": {
+        "temp": 275.77,
+        "feels_like": 273.18,
+        "temp_min": 275.77,
+        "temp_max": 275.77,
+        "pressure": 995,
+        "sea_level": 995,
+        "grnd_level": 990,
+        "humidity": 98,
+        "temp_kf": 0
+      },
+      "weather": [
+        {
+          "id": 601,
+          "main": "Snow",
+          "description": "snow",
+          "icon": "13d"
+        }
+      ],
+      "clouds": {
+        "all": 100
+      },
+      "wind": {
+        "speed": 2.56,
+        "deg": 220,
+        "gust": 5.02
+      },
+      "visibility": 26,
+      "pop": 0.75,
+      "snow": {
+        "3h": 1.98
+      },
+      "sys": {
+        "pod": "d"
+      },
+      "dt_txt": "2023-03-07 09:00:00"
     }
-  },
-  "forecast": {
-    "items": [
-      {
-        "date": "2023-03-01",
-        "dateWithTimezone": "2023-02-28T23:00:00Z",
-        "freshSnow": 0,
-        "snowHeight": null,
-        "weather": {
-          "state": 0,
-          "text": "sonnig",
-          "icon": "d_0.svg"
-        },
-        "prec": {
-          "sum": 0,
-          "probability": 0,
-          "sumAsRain": null,
-          "class": 0
-        },
-        "sunHours": 5,
-        "rainHours": null,
-        "temperature": {
-          "min": -2,
-          "max": 7,
-          "avg": null
-        },
-        "wind": {
-          "unit": "km/h",
-          "direction": "Nordwind",
-          "text": "N",
-          "avg": null,
-          "min": 8,
-          "max": 15,
-          "gusts": {
-            "value": 33,
-            "text": null
-          },
-          "significationWind": false
-        },
-        "windchill": {
-          "min": -6,
-          "max": 4,
-          "avg": null
-        },
-        "snowLine": {
-          "avg": null,
-          "min": null,
-          "max": null,
-          "unit": "m"
-        },
-        "astronomy": {
-          "dawn": "2023-03-01T07:01:36+01:00",
-          "sunrise": "2023-03-01T07:33:16+01:00",
-          "suntransit": "2023-03-01T13:02:57+01:00",
-          "sunset": "2023-03-01T18:33:27+01:00",
-          "dusk": "2023-03-01T19:05:11+01:00",
-          "moonrise": "2023-03-01T12:05:55+01:00",
-          "moontransit": "2023-03-01T20:50:56+01:00",
-          "moonset": "2023-03-01T04:43:06+01:00",
-          "moonphase": 4,
-          "moonzodiac": 3
-        }
-      },
-      {
-        "date": "2023-03-02",
-        "dateWithTimezone": "2023-03-01T23:00:00Z",
-        "freshSnow": 0,
-        "snowHeight": null,
-        "weather": {
-          "state": 0,
-          "text": "sonnig",
-          "icon": "d_0.svg"
-        },
-        "prec": {
-          "sum": 0,
-          "probability": 0,
-          "sumAsRain": null,
-          "class": 0
-        },
-        "sunHours": 11,
-        "rainHours": null,
-        "temperature": {
-          "min": -1,
-          "max": 9,
-          "avg": null
-        },
-        "wind": {
-          "unit": "km/h",
-          "direction": "Nordwind",
-          "text": "N",
-          "avg": null,
-          "min": 5,
-          "max": 13,
-          "gusts": {
-            "value": 28,
-            "text": null
-          },
-          "significationWind": false
-        },
-        "windchill": {
-          "min": -3,
-          "max": 7,
-          "avg": null
-        },
-        "snowLine": {
-          "avg": null,
-          "min": null,
-          "max": null,
-          "unit": "m"
-        },
-        "astronomy": {
-          "dawn": "2023-03-02T06:59:40+01:00",
-          "sunrise": "2023-03-02T07:31:18+01:00",
-          "suntransit": "2023-03-02T13:02:46+01:00",
-          "sunset": "2023-03-02T18:35:02+01:00",
-          "dusk": "2023-03-02T19:06:44+01:00",
-          "moonrise": "2023-03-02T13:00:44+01:00",
-          "moontransit": "2023-03-02T21:42:04+01:00",
-          "moonset": "2023-03-02T05:34:10+01:00",
-          "moonphase": 4,
-          "moonzodiac": 4
-        }
-      },
-      {
-        "date": "2023-03-03",
-        "dateWithTimezone": "2023-03-02T23:00:00Z",
-        "freshSnow": 0,
-        "snowHeight": null,
-        "weather": {
-          "state": 0,
-          "text": "sonnig",
-          "icon": "d_0.svg"
-        },
-        "prec": {
-          "sum": 0,
-          "probability": 0,
-          "sumAsRain": null,
-          "class": 0
-        },
-        "sunHours": 6,
-        "rainHours": null,
-        "temperature": {
-          "min": -1,
-          "max": 8,
-          "avg": null
-        },
-        "wind": {
-          "unit": "km/h",
-          "direction": "Nordwind",
-          "text": "N",
-          "avg": null,
-          "min": 6,
-          "max": 13,
-          "gusts": {
-            "value": 30,
-            "text": null
-          },
-          "significationWind": false
-        },
-        "windchill": {
-          "min": -5,
-          "max": 6,
-          "avg": null
-        },
-        "snowLine": {
-          "avg": null,
-          "min": null,
-          "max": null,
-          "unit": "m"
-        },
-        "astronomy": {
-          "dawn": "2023-03-03T06:57:43+01:00",
-          "sunrise": "2023-03-03T07:29:19+01:00",
-          "suntransit": "2023-03-03T13:02:33+01:00",
-          "sunset": "2023-03-03T18:36:37+01:00",
-          "dusk": "2023-03-03T19:08:17+01:00",
-          "moonrise": "2023-03-03T14:03:40+01:00",
-          "moontransit": "2023-03-03T22:31:32+01:00",
-          "moonset": "2023-03-03T06:14:28+01:00",
-          "moonphase": 4,
-          "moonzodiac": 4
-        }
-      },
-      {
-        "date": "2023-03-04",
-        "dateWithTimezone": "2023-03-03T23:00:00Z",
-        "freshSnow": 0,
-        "snowHeight": null,
-        "weather": {
-          "state": 2,
-          "text": "wolkig",
-          "icon": "d_2.svg"
-        },
-        "prec": {
-          "sum": 0,
-          "probability": 25,
-          "sumAsRain": null,
-          "class": 0
-        },
-        "sunHours": 2,
-        "rainHours": null,
-        "temperature": {
-          "min": 1,
-          "max": 9,
-          "avg": null
-        },
-        "wind": {
-          "unit": "km/h",
-          "direction": "Nordwind",
-          "text": "N",
-          "avg": null,
-          "min": 7,
-          "max": 14,
-          "gusts": {
-            "value": 35,
-            "text": null
-          },
-          "significationWind": false
-        },
-        "windchill": {
-          "min": -2,
-          "max": 7,
-          "avg": null
-        },
-        "snowLine": {
-          "avg": null,
-          "min": null,
-          "max": null,
-          "unit": "m"
-        },
-        "astronomy": {
-          "dawn": "2023-03-04T06:55:46+01:00",
-          "sunrise": "2023-03-04T07:27:19+01:00",
-          "suntransit": "2023-03-04T13:02:21+01:00",
-          "sunset": "2023-03-04T18:38:12+01:00",
-          "dusk": "2023-03-04T19:09:49+01:00",
-          "moonrise": "2023-03-04T15:11:32+01:00",
-          "moontransit": "2023-03-04T23:18:42+01:00",
-          "moonset": "2023-03-04T06:45:28+01:00",
-          "moonphase": 4,
-          "moonzodiac": 5
-        }
-      },
-      {
-        "date": "2023-03-05",
-        "dateWithTimezone": "2023-03-04T23:00:00Z",
-        "freshSnow": 0,
-        "snowHeight": null,
-        "weather": {
-          "state": 2,
-          "text": "wolkig",
-          "icon": "d_2.svg"
-        },
-        "prec": {
-          "sum": 0,
-          "probability": 5,
-          "sumAsRain": null,
-          "class": 0
-        },
-        "sunHours": 1,
-        "rainHours": null,
-        "temperature": {
-          "min": 3,
-          "max": 8,
-          "avg": null
-        },
-        "wind": {
-          "unit": "km/h",
-          "direction": "Nordwind",
-          "text": "N",
-          "avg": null,
-          "min": 3,
-          "max": 7,
-          "gusts": {
-            "value": 19,
-            "text": null
-          },
-          "significationWind": false
-        },
-        "windchill": {
-          "min": 2,
-          "max": 7,
-          "avg": null
-        },
-        "snowLine": {
-          "avg": null,
-          "min": null,
-          "max": null,
-          "unit": "m"
-        },
-        "astronomy": {
-          "dawn": "2023-03-05T06:53:47+01:00",
-          "sunrise": "2023-03-05T07:25:19+01:00",
-          "suntransit": "2023-03-05T13:02:07+01:00",
-          "sunset": "2023-03-05T18:39:46+01:00",
-          "dusk": "2023-03-05T19:11:22+01:00",
-          "moonrise": "2023-03-05T16:21:20+01:00",
-          "moontransit": null,
-          "moonset": "2023-03-05T07:09:28+01:00",
-          "moonphase": 4,
-          "moonzodiac": 5
-        }
-      },
-      {
-        "date": "2023-03-06",
-        "dateWithTimezone": "2023-03-05T23:00:00Z",
-        "freshSnow": 0,
-        "snowHeight": null,
-        "weather": {
-          "state": 2,
-          "text": "wolkig",
-          "icon": "d_2.svg"
-        },
-        "prec": {
-          "sum": 0,
-          "probability": 0,
-          "sumAsRain": null,
-          "class": 0
-        },
-        "sunHours": 1,
-        "rainHours": null,
-        "temperature": {
-          "min": 2,
-          "max": 7,
-          "avg": null
-        },
-        "wind": {
-          "unit": "km/h",
-          "direction": "Nordwind",
-          "text": "N",
-          "avg": null,
-          "min": 7,
-          "max": 16,
-          "gusts": {
-            "value": 25,
-            "text": null
-          },
-          "significationWind": false
-        },
-        "windchill": {
-          "min": 0,
-          "max": 4,
-          "avg": null
-        },
-        "snowLine": {
-          "avg": null,
-          "min": null,
-          "max": null,
-          "unit": "m"
-        },
-        "astronomy": {
-          "dawn": "2023-03-06T06:51:48+01:00",
-          "sunrise": "2023-03-06T07:23:18+01:00",
-          "suntransit": "2023-03-06T13:01:54+01:00",
-          "sunset": "2023-03-06T18:41:20+01:00",
-          "dusk": "2023-03-06T19:12:54+01:00",
-          "moonrise": "2023-03-06T17:31:16+01:00",
-          "moontransit": "2023-03-06T00:03:29+01:00",
-          "moonset": "2023-03-06T07:28:39+01:00",
-          "moonphase": 4,
-          "moonzodiac": 5
-        }
-      },
-      {
-        "date": "2023-03-07",
-        "dateWithTimezone": "2023-03-06T23:00:00Z",
-        "freshSnow": 0,
-        "snowHeight": null,
-        "weather": {
-          "state": 2,
-          "text": "wolkig",
-          "icon": "d_2.svg"
-        },
-        "prec": {
-          "sum": 0,
-          "probability": 0,
-          "sumAsRain": null,
-          "class": 0
-        },
-        "sunHours": 2,
-        "rainHours": null,
-        "temperature": {
-          "min": 2,
-          "max": 6,
-          "avg": null
-        },
-        "wind": {
-          "unit": "km/h",
-          "direction": "Nordwestwind",
-          "text": "NW",
-          "avg": null,
-          "min": 9,
-          "max": 16,
-          "gusts": {
-            "value": 27,
-            "text": null
-          },
-          "significationWind": false
-        },
-        "windchill": {
-          "min": -1,
-          "max": 3,
-          "avg": null
-        },
-        "snowLine": {
-          "avg": null,
-          "min": null,
-          "max": null,
-          "unit": "m"
-        },
-        "astronomy": {
-          "dawn": "2023-03-07T06:49:48+01:00",
-          "sunrise": "2023-03-07T07:21:16+01:00",
-          "suntransit": "2023-03-07T13:01:40+01:00",
-          "sunset": "2023-03-07T18:42:54+01:00",
-          "dusk": "2023-03-07T19:14:27+01:00",
-          "moonrise": "2023-03-07T18:40:46+01:00",
-          "moontransit": "2023-03-07T00:46:14+01:00",
-          "moonset": "2023-03-07T07:44:45+01:00",
-          "moonphase": 5,
-          "moonzodiac": 6
-        }
-      },
-      {
-        "date": "2023-03-08",
-        "dateWithTimezone": "2023-03-07T23:00:00Z",
-        "freshSnow": 0,
-        "snowHeight": null,
-        "weather": {
-          "state": 2,
-          "text": "wolkig",
-          "icon": "d_2.svg"
-        },
-        "prec": {
-          "sum": 0,
-          "probability": 0,
-          "sumAsRain": null,
-          "class": 0
-        },
-        "sunHours": 1,
-        "rainHours": null,
-        "temperature": {
-          "min": 1,
-          "max": 5,
-          "avg": null
-        },
-        "wind": {
-          "unit": "km/h",
-          "direction": "Nordwestwind",
-          "text": "NW",
-          "avg": null,
-          "min": 9,
-          "max": 18,
-          "gusts": {
-            "value": 37,
-            "text": null
-          },
-          "significationWind": false
-        },
-        "windchill": {
-          "min": -2,
-          "max": 1,
-          "avg": null
-        },
-        "snowLine": {
-          "avg": null,
-          "min": null,
-          "max": null,
-          "unit": "m"
-        },
-        "astronomy": {
-          "dawn": "2023-03-08T06:47:47+01:00",
-          "sunrise": "2023-03-08T07:19:14+01:00",
-          "suntransit": "2023-03-08T13:01:25+01:00",
-          "sunset": "2023-03-08T18:44:27+01:00",
-          "dusk": "2023-03-08T19:15:59+01:00",
-          "moonrise": "2023-03-08T19:50:12+01:00",
-          "moontransit": "2023-03-08T01:27:26+01:00",
-          "moonset": "2023-03-08T07:59:08+01:00",
-          "moonphase": 5,
-          "moonzodiac": 6
-        }
-      },
-      {
-        "date": "2023-03-09",
-        "dateWithTimezone": "2023-03-08T23:00:00Z",
-        "freshSnow": 0,
-        "snowHeight": null,
-        "weather": {
-          "state": 2,
-          "text": "wolkig",
-          "icon": "d_2.svg"
-        },
-        "prec": {
-          "sum": 0,
-          "probability": 0,
-          "sumAsRain": null,
-          "class": 0
-        },
-        "sunHours": 2,
-        "rainHours": null,
-        "temperature": {
-          "min": 1,
-          "max": 7,
-          "avg": null
-        },
-        "wind": {
-          "unit": "km/h",
-          "direction": "Südwestwind",
-          "text": "SW",
-          "avg": null,
-          "min": 11,
-          "max": 18,
-          "gusts": {
-            "value": 40,
-            "text": null
-          },
-          "significationWind": true
-        },
-        "windchill": {
-          "min": -2,
-          "max": 4,
-          "avg": null
-        },
-        "snowLine": {
-          "avg": null,
-          "min": null,
-          "max": null,
-          "unit": "m"
-        },
-        "astronomy": {
-          "dawn": "2023-03-09T06:45:45+01:00",
-          "sunrise": "2023-03-09T07:17:11+01:00",
-          "suntransit": "2023-03-09T13:01:10+01:00",
-          "sunset": "2023-03-09T18:46:01+01:00",
-          "dusk": "2023-03-09T19:17:31+01:00",
-          "moonrise": "2023-03-09T21:00:28+01:00",
-          "moontransit": "2023-03-09T02:08:38+01:00",
-          "moonset": "2023-03-09T08:12:54+01:00",
-          "moonphase": 6,
-          "moonzodiac": 7
-        }
-      },
-      {
-        "date": "2023-03-10",
-        "dateWithTimezone": "2023-03-09T23:00:00Z",
-        "freshSnow": 0,
-        "snowHeight": null,
-        "weather": {
-          "state": 2,
-          "text": "wolkig",
-          "icon": "d_2.svg"
-        },
-        "prec": {
-          "sum": 0,
-          "probability": 0,
-          "sumAsRain": null,
-          "class": 0
-        },
-        "sunHours": 4,
-        "rainHours": null,
-        "temperature": {
-          "min": 3,
-          "max": 9,
-          "avg": null
-        },
-        "wind": {
-          "unit": "km/h",
-          "direction": "Südwestwind",
-          "text": "SW",
-          "avg": null,
-          "min": 11,
-          "max": 18,
-          "gusts": {
-            "value": 29,
-            "text": null
-          },
-          "significationWind": false
-        },
-        "windchill": {
-          "min": 0,
-          "max": 6,
-          "avg": null
-        },
-        "snowLine": {
-          "avg": null,
-          "min": null,
-          "max": null,
-          "unit": "m"
-        },
-        "astronomy": {
-          "dawn": "2023-03-10T06:43:43+01:00",
-          "sunrise": "2023-03-10T07:15:08+01:00",
-          "suntransit": "2023-03-10T13:00:55+01:00",
-          "sunset": "2023-03-10T18:47:34+01:00",
-          "dusk": "2023-03-10T19:19:03+01:00",
-          "moonrise": "2023-03-10T22:12:37+01:00",
-          "moontransit": "2023-03-10T02:50:30+01:00",
-          "moonset": "2023-03-10T08:27:08+01:00",
-          "moonphase": 6,
-          "moonzodiac": 7
-        }
-      },
-      {
-        "date": "2023-03-11",
-        "dateWithTimezone": "2023-03-10T23:00:00Z",
-        "freshSnow": 0,
-        "snowHeight": null,
-        "weather": {
-          "state": 3,
-          "text": "bedeckt",
-          "icon": "d_3.svg"
-        },
-        "prec": {
-          "sum": 1.37,
-          "probability": 15,
-          "sumAsRain": null,
-          "class": 1
-        },
-        "sunHours": 0,
-        "rainHours": null,
-        "temperature": {
-          "min": 1,
-          "max": 8,
-          "avg": null
-        },
-        "wind": {
-          "unit": "km/h",
-          "direction": "Südwind",
-          "text": "S",
-          "avg": null,
-          "min": 9,
-          "max": 18,
-          "gusts": {
-            "value": null,
-            "text": null
-          },
-          "significationWind": false
-        },
-        "windchill": {
-          "min": -2,
-          "max": 6,
-          "avg": null
-        },
-        "snowLine": {
-          "avg": null,
-          "min": null,
-          "max": null,
-          "unit": "m"
-        },
-        "astronomy": {
-          "dawn": "2023-03-11T06:41:41+01:00",
-          "sunrise": "2023-03-11T07:13:05+01:00",
-          "suntransit": "2023-03-11T13:00:40+01:00",
-          "sunset": "2023-03-11T18:49:06+01:00",
-          "dusk": "2023-03-11T19:20:36+01:00",
-          "moonrise": "2023-03-11T23:27:37+01:00",
-          "moontransit": "2023-03-11T03:34:08+01:00",
-          "moonset": "2023-03-11T08:43:00+01:00",
-          "moonphase": 6,
-          "moonzodiac": 7
-        }
-      },
-      {
-        "date": "2023-03-12",
-        "dateWithTimezone": "2023-03-11T23:00:00Z",
-        "freshSnow": 0,
-        "snowHeight": null,
-        "weather": {
-          "state": 3,
-          "text": "bedeckt",
-          "icon": "d_3.svg"
-        },
-        "prec": {
-          "sum": 0.37,
-          "probability": 15,
-          "sumAsRain": null,
-          "class": 1
-        },
-        "sunHours": 0,
-        "rainHours": null,
-        "temperature": {
-          "min": 10,
-          "max": 13,
-          "avg": null
-        },
-        "wind": {
-          "unit": "km/h",
-          "direction": "Südwind",
-          "text": "S",
-          "avg": null,
-          "min": 14,
-          "max": 20,
-          "gusts": {
-            "value": null,
-            "text": null
-          },
-          "significationWind": false
-        },
-        "windchill": {
-          "min": 8,
-          "max": 11,
-          "avg": null
-        },
-        "snowLine": {
-          "avg": null,
-          "min": null,
-          "max": null,
-          "unit": "m"
-        },
-        "astronomy": {
-          "dawn": "2023-03-12T06:39:37+01:00",
-          "sunrise": "2023-03-12T07:11:01+01:00",
-          "suntransit": "2023-03-12T13:00:24+01:00",
-          "sunset": "2023-03-12T18:50:39+01:00",
-          "dusk": "2023-03-12T19:22:08+01:00",
-          "moonrise": null,
-          "moontransit": "2023-03-12T04:20:38+01:00",
-          "moonset": "2023-03-12T09:02:07+01:00",
-          "moonphase": 6,
-          "moonzodiac": 8
-        }
-      },
-      {
-        "date": "2023-03-13",
-        "dateWithTimezone": "2023-03-12T23:00:00Z",
-        "freshSnow": 0,
-        "snowHeight": null,
-        "weather": {
-          "state": 6,
-          "text": "Regen",
-          "icon": "d_6.svg"
-        },
-        "prec": {
-          "sum": 1.09,
-          "probability": 15,
-          "sumAsRain": null,
-          "class": 1
-        },
-        "sunHours": 1,
-        "rainHours": null,
-        "temperature": {
-          "min": 10,
-          "max": 14,
-          "avg": null
-        },
-        "wind": {
-          "unit": "km/h",
-          "direction": "Westwind",
-          "text": "W",
-          "avg": null,
-          "min": 20,
-          "max": 32,
-          "gusts": {
-            "value": null,
-            "text": null
-          },
-          "significationWind": false
-        },
-        "windchill": {
-          "min": 7,
-          "max": 12,
-          "avg": null
-        },
-        "snowLine": {
-          "avg": null,
-          "min": null,
-          "max": null,
-          "unit": "m"
-        },
-        "astronomy": {
-          "dawn": "2023-03-13T06:37:33+01:00",
-          "sunrise": "2023-03-13T07:08:57+01:00",
-          "suntransit": "2023-03-13T13:00:08+01:00",
-          "sunset": "2023-03-13T18:52:11+01:00",
-          "dusk": "2023-03-13T19:23:40+01:00",
-          "moonrise": "2023-03-13T00:45:39+01:00",
-          "moontransit": "2023-03-13T05:11:00+01:00",
-          "moonset": "2023-03-13T09:26:43+01:00",
-          "moonphase": 6,
-          "moonzodiac": 8
-        }
-      },
-      {
-        "date": "2023-03-14",
-        "dateWithTimezone": "2023-03-13T23:00:00Z",
-        "freshSnow": 0,
-        "snowHeight": null,
-        "weather": {
-          "state": 6,
-          "text": "Regen",
-          "icon": "d_6.svg"
-        },
-        "prec": {
-          "sum": 0.84,
-          "probability": 15,
-          "sumAsRain": null,
-          "class": 1
-        },
-        "sunHours": 0,
-        "rainHours": null,
-        "temperature": {
-          "min": 8,
-          "max": 11,
-          "avg": null
-        },
-        "wind": {
-          "unit": "km/h",
-          "direction": "Südwind",
-          "text": "S",
-          "avg": null,
-          "min": 14,
-          "max": 27,
-          "gusts": {
-            "value": null,
-            "text": null
-          },
-          "significationWind": false
-        },
-        "windchill": {
-          "min": 6,
-          "max": 8,
-          "avg": null
-        },
-        "snowLine": {
-          "avg": null,
-          "min": null,
-          "max": null,
-          "unit": "m"
-        },
-        "astronomy": {
-          "dawn": "2023-03-14T06:35:29+01:00",
-          "sunrise": "2023-03-14T07:06:52+01:00",
-          "suntransit": "2023-03-14T12:59:51+01:00",
-          "sunset": "2023-03-14T18:53:44+01:00",
-          "dusk": "2023-03-14T19:25:12+01:00",
-          "moonrise": "2023-03-14T02:05:13+01:00",
-          "moontransit": "2023-03-14T06:05:48+01:00",
-          "moonset": "2023-03-14T10:00:06+01:00",
-          "moonphase": 6,
-          "moonzodiac": 9
-        }
-      }
-    ],
-    "forecastDate": "2023-03-01T14:20:08Z",
-    "nextUpdate": "2023-03-01T18:30:00Z",
-    "source": "w3Data",
-    "point": "global",
-    "fingerprint": "Uv+BAwEBC0ZpbmdlcnByaW50Af+CAAEFAQdWZXJzaW9uAQwAAQtSZXF1ZXN0VGltZQH/hAABA0xuZwEIAAEDTGF0AQgAAQZNb2RlbHMB/4gAAAAQ/4MFAQEEVGltZQH/hAAAADb/hwIBASdbXXN0cnVjdCB7IE5hbWUgc3RyaW5nOyBSdW4gdGltZS5UaW1lIH0B/4gAAf+GAAAe/4UDAQL/hgABAgEETmFtZQEMAAEDUnVuAf+EAAAA/gE//4IBEWF1dG9zY2FsaW5nLTEuOS40AQ8BAAAADtuRSggNE/MtAAAB+CfChqdXygJAAfgFNBE2PG1IQAEJAQ5FWFBPU0VELU1PU01JWAEPAQAAAA7bkLawAAAAAAAAAAEORVhQT1NFRC1NT1NNSVgBDwEAAAAO25AN8AAAAAAAAAABB0lDT05fRVUBDwEAAAAO25CMgAAAAAAAAAABB0lDT05fRVUBDwEAAAAO24/jwAAAAAAAAAABBk1PU01JWAEPAQAAAA7bkLawAAAAAAAAAAEGTU9TTUlYAQ8BAAAADtuQDfAAAAAAAAAAAQlHRlNfU0ZMVVgBDwEAAAAO25CMgAAAAAAAAAABCUdGU19TRkxVWAEPAQAAAA7bj+PAAAAAAAAAAAEGQVdFX0RFAQ8BAAAADtuQqKAAAAAAAAAAAA=="
+  ],
+  "city": {
+    "id": 2988507,
+    "name": "Paris",
+    "coord": {
+      "lat": 48.8534,
+      "lon": 2.3488
+    },
+    "country": "FR",
+    "population": 2138551,
+    "timezone": 3600,
+    "sunrise": 1677738702,
+    "sunset": 1677778459
   }
 }

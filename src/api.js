@@ -1,7 +1,8 @@
 import axios from "axios";
 
-export const getCurrentWeather = () => {
-	return axios.get("https://open-weather13.p.rapidapi.com/city/Paris", {
+export const getCurrentWeather = (_, lon = "2.348", lat = "48.853") => {
+	console.log(lon, lat)
+	return axios.get(`https://open-weather13.p.rapidapi.com/city/fivedaysforcast/${lat.toString()}/${lon.toString()}`, {
 		headers: {
 			'X-RapidAPI-Key': 'd0d3471d3emsh609102a98bc5935p166061jsn914205307d89',
 			'X-RapidAPI-Host': 'open-weather13.p.rapidapi.com'
@@ -10,4 +11,9 @@ export const getCurrentWeather = () => {
 		console.log(res.data)
 		return res.data
 	})
+		.catch(err => {
+			console.log(err)
+		})
 }
+
+
