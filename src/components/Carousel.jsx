@@ -57,7 +57,7 @@ export default function Carousel({items}) {
       <CarouselHeader></CarouselHeader>
       <AliceCarousel
         responsive={responsive}
-        items={items}
+        items={customItems}
         autoPlayInterval={3000}
         disableButtonsControls
         disableDotsControls

@@ -9,6 +9,7 @@ import {useQuery} from "react-query";
 import {getCurrentWeather} from "../api.js";
 import Loader from "./Loader.jsx";
 import {formatDate, formatTemp} from "../utils.js";
+import Carousel from "./Carousel.jsx";
 
 export default function MainView() {
 	const {data, isLoading, error} = useQuery(["weather", "now"], getCurrentWeather);
@@ -24,7 +25,7 @@ export default function MainView() {
 	return (
 		<>
 			<main className="w-full p-4">
-				<CityName city={data.list[0].name} country={data.list[0].sys.country} />
+				<CityName city={data.city.name} country={data.city.country} />
 				<section className="w-full bg-blue-500 rounded-lg my-4 overflow-hidden">
 					<div className="w-full flex items-center justify-center flex-col p-4">
 						<img src={cloudy} alt="oy luffy" className="" />
@@ -68,7 +69,7 @@ export default function MainView() {
 				</section>
 			</main>
 
-			{/*<Carousel items={} />*/}
+			<Carousel items={data.list} />
 		</>
 	)
 }
